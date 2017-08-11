@@ -16,7 +16,7 @@ public:
 	}*/
 	int *masNumber;
 	int SIZE = 1;
-	void setDate(int *mas, char *CharMas) // Функция преобразования строки символов в соответствующее число
+	void setDate(int *mas, char *CharMas) // convert a string to a number
 	{
 		Flg = 0;
 		FlgSpc=0;
@@ -51,7 +51,7 @@ public:
 			masNumber[i] = mas[i];
 		}
 	}
-	void BubbleSort() // Функция сортировки методом пузырька
+	void BubbleSort() // Bubble Sort
 	{
 		int i,buff;
 		bool exit = false;
@@ -70,7 +70,7 @@ public:
 			}
 		}
 	}
-	void getDate() // Функция вывод массива чисел
+	void getDate() // Print result
 	{
 		for (int i = 0; i < SIZE; i++)
 		{
@@ -98,7 +98,7 @@ int main()
 	bool error;
 	for (int i = 0; i < (int)strlen(CharMas); i++)
 	{
-		if ((CharMas[i] >= '0' && CharMas[i] <= '9') || CharMas[i]==' ')
+		if ((CharMas[i] >= '0' && CharMas[i] <= '9') || CharMas[i]==' ') //checking numbers or letters
 		{
 			error = false;
 		}
