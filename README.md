@@ -1,5 +1,5 @@
 # BubbleSort
-After: Mesnyankin Alexey<br>
+Author: Mesnyankin Alexey<br>
 Data: 11/08/2017<br><br>
 Sort by bubble method.<br> 
 + The input validator.<br>
