@@ -54,11 +54,13 @@ public:
 	void BubbleSort() // Bubble Sort
 	{
 		int i,buff;
+		int j=0;
 		bool exit = false;
 		while (!exit) 
 		{
+			j++;
 			exit = true;
-			for (i = 0; i < SIZE-1; i++)
+			for (i = 0; i < SIZE-j; i++)
 			{
 				if (masNumber[i] > masNumber[i + 1])
 				{
